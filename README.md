@@ -31,3 +31,10 @@ Screenshot of the generated database tables. Also the rows in the table.
 
 ## Experiment 2: Banking/Credit Card example JPA
 
+### 1. Domain model
+A domain model created of the java classes using Intellij. The model also shows the relations between the objects.
+![bilde](https://user-images.githubusercontent.com/44643583/132565897-fc738aba-9801-4cc6-9d73-f094b98b5939.png)
+
+
+
+
