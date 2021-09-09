@@ -1,7 +1,7 @@
 # DAT250: Experiment Assignment 2.
 
 - [X]  Experiment 1: Application using JPA
-- [ ]  Experiment 2: Banking/Credit Card example JPA
+- [X]  Experiment 2: Banking/Credit Card example JPA
 
 ## Experiment 1: Application using JPA
 I started with cloning the maven projec and changed the connection string to the following:
