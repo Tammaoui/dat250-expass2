@@ -35,6 +35,11 @@ Screenshot of the generated database tables. Also the rows in the table.
 A domain model created of the java classes using Intellij. The model also shows the relations between the objects.
 ![bilde](https://user-images.githubusercontent.com/44643583/132565897-fc738aba-9801-4cc6-9d73-f094b98b5939.png)
 
+### 2. Persist object into database. ChecK links are saved correctly
+By viewing in the image below, we see the entities and their relations. For example CreditCard refers to Bank and PinCode.
+![bilde](https://user-images.githubusercontent.com/44643583/132726240-5bf23447-3979-46cd-8259-6d4336f6d544.png)
+
+
 
 
 
