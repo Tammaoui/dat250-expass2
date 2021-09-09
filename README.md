@@ -36,10 +36,17 @@ A domain model created of the java classes using Intellij. The model also shows 
 ![bilde](https://user-images.githubusercontent.com/44643583/132565897-fc738aba-9801-4cc6-9d73-f094b98b5939.png)
 
 ### 2. Persist object into database. ChecK links are saved correctly
-By viewing in the image below, we see the entities and their relations. For example CreditCard refers to Bank and PinCode.
-![bilde](https://user-images.githubusercontent.com/44643583/132726240-5bf23447-3979-46cd-8259-6d4336f6d544.png)
+By viewing in the image below, we see the tables. 
+![bilde](https://user-images.githubusercontent.com/44643583/132736141-f1a5b445-713f-4a5c-84a9-935f9e44bcb0.png)
 
 
+By fetching the Person rows after having created them (created them similar to how the todo objects were created) and using Intellijs database UI to display them:
+`select * FROM  PERSON`
+![bilde](https://user-images.githubusercontent.com/44643583/132736360-db1f6c49-7cef-4f98-b044-9220e8b397ca.png)
 
+We can also see it here that the links are saved correctly by inspecting the objects in the JPA structure in Intellij:
+![bilde](https://user-images.githubusercontent.com/44643583/132736652-1ec19157-cfd8-43d5-9ddc-c9ed88795bc2.png)
 
-
+Issues:
+I managed to extend class Person with Address (by autoformatting with Intellij without being aware) and took me a lot of time to figure why the Person entity didnt
+get created.
