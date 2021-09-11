@@ -47,6 +47,10 @@ By fetching the Person rows after having created them (created them similar to h
 We can also see it here that the links are saved correctly by inspecting the objects in the JPA structure in Intellij:
 ![bilde](https://user-images.githubusercontent.com/44643583/132736652-1ec19157-cfd8-43d5-9ddc-c9ed88795bc2.png)
 
+Link to the repository with the code:
+https://github.com/Tammaoui/dat250-expass2-code
+
 Issues:
 I managed to extend class Person with Address (by autoformatting with Intellij without being aware) and took me a lot of time to figure why the Person entity didnt
 get created.
+
